@@ -5,7 +5,7 @@ This project is a MERN application  with an API REST Build with NodeJS, Mongoose
 This application is building for MongoDBCLoud Atlas.  
 
 Before starting, just create your cluster, database and a collection named `users`  
-Create a file named `.env`  and replace the following by your own informations :
+Create a file named `.env` in the `/api` directory and replace the following environment variables by your own :
 
 `
 DATABASE_URL = mongodb+srv://<username>:<password>@<cluster>/<database>?retryWrites=true&w=majority  
@@ -16,4 +16,4 @@ PORT = 3001
 
 In both directory `/client` and `/api` execute the following command `npm install` then `npm start`
 
-##Et Voilà!
+## Et Voilà!
